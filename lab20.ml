@@ -4,6 +4,9 @@
 
                  Testing the gray-scale image module
  *)
+(* 
+                               SOLUTION
+ *)
 
 open Image ;;
 
@@ -24,7 +27,7 @@ let mona = create 250 360 Monalisa.image in
 
 This "solution" to lab 20 is only one of a multitude of
 possibilities. Yours may be quite different, perhaps much better! We
-recommend comparing this version to the original lab20.ml.
+recommend comparing this version to the original `lab20.ml`.
 
 We focused on the following issues, while leaving many other
 alternatives unexplored. In rough order of decreasing importance:
@@ -42,7 +45,7 @@ alternatives unexplored. In rough order of decreasing importance:
     natural to have the image itself store these aspects that affect
     the interpretation of the contents matrix.
 
-  * Addition of a few operations to the Image module, for filtering
+  * Addition of a few operations to the `Image` module, for filtering
     and inverting images, as well as one-dimensional error diffusion
     as an additional digital halftoning method. These were mostly just
     for fun and to indicate the type of additional image manipulation
@@ -113,6 +116,5 @@ Unexplored alternatives and additions include:
     types of the functions.
 
   * Addition of a thorough unit testing file.
-
  *)
            
